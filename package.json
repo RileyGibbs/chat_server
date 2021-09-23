@@ -1,0 +1,17 @@
+{
+  "name": "chat_server",
+  "version": "1.0.0",
+  "description": "simple chat server & client",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Riley Gibbs",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "express": "^4.17.1",
+    "sqlite3": "^4.2.0"
+  }
+}
